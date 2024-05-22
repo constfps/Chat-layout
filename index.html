@@ -8,9 +8,22 @@
 </head>
 <body>
     <div class="root">
-        <div class="contacts containers">test</div>
-        <div class="chatBox containers">test</div>
-        <div class="chatFeed containers">test</div>
+        <div class="contacts containers">
+            <h4>Friends:</h4>
+        </div>
+
+        <div class="chatBox containers">
+            <input type="text" name="message" id="message">
+            <button onclick="send()">Send</button>
+        </div>
+
+        <div class="chatFeed containers" id="feed">
+            <div class="chat">
+                <h4>You</h4>
+                <p>asdfasdfas</p>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
